@@ -1,0 +1,10 @@
+C:\Users\efecan\source\repos\XTen_Cafe\XTen_Cafe\bin\Debug\XTen_Cafe.exe.config
+C:\Users\efecan\source\repos\XTen_Cafe\XTen_Cafe\bin\Debug\XTen_Cafe.exe
+C:\Users\efecan\source\repos\XTen_Cafe\XTen_Cafe\bin\Debug\XTen_Cafe.pdb
+C:\Users\efecan\source\repos\XTen_Cafe\XTen_Cafe\obj\Debug\XTen_Cafe.csproj.AssemblyReference.cache
+C:\Users\efecan\source\repos\XTen_Cafe\XTen_Cafe\obj\Debug\XTen_Cafe.Form1.resources
+C:\Users\efecan\source\repos\XTen_Cafe\XTen_Cafe\obj\Debug\XTen_Cafe.Properties.Resources.resources
+C:\Users\efecan\source\repos\XTen_Cafe\XTen_Cafe\obj\Debug\XTen_Cafe.csproj.GenerateResource.cache
+C:\Users\efecan\source\repos\XTen_Cafe\XTen_Cafe\obj\Debug\XTen_Cafe.csproj.CoreCompileInputs.cache
+C:\Users\efecan\source\repos\XTen_Cafe\XTen_Cafe\obj\Debug\XTen_Cafe.exe
+C:\Users\efecan\source\repos\XTen_Cafe\XTen_Cafe\obj\Debug\XTen_Cafe.pdb
