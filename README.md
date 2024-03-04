@@ -10,6 +10,20 @@ Uygulama İçerisinde
 3. Veri gösterme
 Gibi olaylarla karşılacaksınız.
 
+## 03/04/2024 Yeni Güncellemeler
+1. Uygulama içerisinde paranız 0'a eşitlenirse direkt olarak bir uyarı alacaksınız ve satın alma işleminiz gerçekleşmeyecektir.
+2. Uygulama içerisine bir adet Giriş ve Yönetici Formu ekledim.
+3. Giriş formuna gittiğiniz zaman Yazı Kutularına : #admin ||  Şifre : #admin yazarak giriş yapabilirsiniz ve bir bildirim kutucuğu görebilirsiniz.
+4. ## Eğer ki göremiyorsanız bildirimleri açmanız gerekli.
+5. ## Giriş Formuna Giriş Yaptıktan Sonra İse...
+6. Yönetici Formuna gideceksiniz orada ise günlük ne kadar harcama yapıldığını görebileceksiniz.
+
+# Eğer ki bir satıcı olmak istiyorsanız lütfen parayı değiştiriniz.
+
+## Şu anda alınan hatalar ise.
+1. Yaptığım dükkanın harcamaları kısmı gözükmüyor. En kısa süre içerisinde o problemi düzelticem
+
+
 ## XTen_Cafe'nin Geliştirmesi Devam Edilecek Mi?
 Evet bu uygulamayı elimden geldiği kadar geliştirmeye devam edeceğim.
 
