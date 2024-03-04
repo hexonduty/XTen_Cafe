@@ -11,7 +11,11 @@ using System.Windows.Forms;
 namespace XTen_Cafe
 {
     public partial class Form1 : Form
-    {
+
+    { 
+
+        public static int[] totalPrices = new int[120];
+        public static int totalIndex    = 0;
 
         int money = 1000;
 
@@ -35,12 +39,17 @@ namespace XTen_Cafe
         {
             totalPrice += cheese;
             cardListBox.Items.Add("Cheese");
+            totalPrices[totalIndex] = (totalPrice);
+            totalIndex++;
         }
 
         private void pictureBox5_Click(object sender, EventArgs e)
         {
             totalPrice += cupcake;
             cardListBox.Items.Add("Cupcake");
+            totalPrices[totalIndex] = (totalPrice);
+
+            totalIndex++;
 
         }
 
@@ -48,24 +57,40 @@ namespace XTen_Cafe
         {
             totalPrice += hamburger;
             cardListBox.Items.Add("Hamburger");
+            totalPrices[totalIndex] = (totalPrice);
+
+            totalIndex++;
+
         }
 
         private void pictureBox7_Click(object sender, EventArgs e)
         {
             totalPrice += pizza;
             cardListBox.Items.Add("Pizza");
+            totalPrices[totalIndex] = (totalPrice);
+
+            totalIndex++;
+
         }
 
         private void pictureBox8_Click(object sender, EventArgs e)
         {
             totalPrice += hotdog;
             cardListBox.Items.Add("Hotdog");
+            totalPrices[totalIndex] = (totalPrice);
+
+            totalIndex++;
+
         }
-        
+
         private void pictureBox9_Click(object sender, EventArgs e)
         {
             totalPrice += pancake;
             cardListBox.Items.Add("Pancake");
+            totalPrices[totalIndex] = (totalPrice);
+
+            totalIndex++;
+
         }
 
         private void payButton_Click(object sender, EventArgs e)
@@ -80,6 +105,13 @@ namespace XTen_Cafe
 
                 /* Information */
                 MessageBox.Show("Thanks for your shopping..", "Information", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+                cardListBox.Items.Clear();
+
+                if(money < 0)
+                {
+                    moneyLabel.Text = "0TL";
+                }
             }
             else
             {
@@ -93,6 +125,15 @@ namespace XTen_Cafe
             {
                 moneyLabel.Text = money.ToString() + "TL";
             }
+        }
+
+        private void adminLoginButton_Click(object sender, EventArgs e)
+        {
+            Login loginPage = new Login();
+
+            loginPage.Show();
+
+            this.Hide();
         }
     }
 }

@@ -47,6 +47,7 @@
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.adminLoginButton = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel2.SuspendLayout();
@@ -64,6 +65,7 @@
             // 
             // panel1
             // 
+            this.panel1.Controls.Add(this.adminLoginButton);
             this.panel1.Controls.Add(this.moneyLabel);
             this.panel1.Controls.Add(this.label1);
             this.panel1.Controls.Add(this.pictureBox1);
@@ -260,6 +262,17 @@
             this.pictureBox2.TabIndex = 0;
             this.pictureBox2.TabStop = false;
             // 
+            // adminLoginButton
+            // 
+            this.adminLoginButton.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.adminLoginButton.Location = new System.Drawing.Point(11, 95);
+            this.adminLoginButton.Name = "adminLoginButton";
+            this.adminLoginButton.Size = new System.Drawing.Size(109, 38);
+            this.adminLoginButton.TabIndex = 1;
+            this.adminLoginButton.Text = "Admin Menu";
+            this.adminLoginButton.UseVisualStyleBackColor = true;
+            this.adminLoginButton.Click += new System.EventHandler(this.adminLoginButton_Click);
+            // 
             // Form1
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
@@ -315,6 +328,7 @@
         private System.Windows.Forms.PictureBox pictureBox4;
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.Button adminLoginButton;
     }
 }
 
